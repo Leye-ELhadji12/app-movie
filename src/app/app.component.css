@@ -1,5 +1,11 @@
 nav {
     background: rgba(6, 12, 34, 0.98);
-    
-  }
+}
+nav input {
+  color: aliceblue;
+}
+.btn {
+  background: #e0072f;
+  border-radius: 10px;
+}
   

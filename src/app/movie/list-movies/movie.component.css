@@ -1,0 +1,14 @@
+button {
+  border-radius: 10px;
+}
+
+.image {
+  background: rgba(6, 12, 34, 0.98);
+  border-radius:10px;
+  padding: 10px 40px;
+  border-radius: 20px;
+	margin-bottom: 1rem;
+	padding: 1rem;
+	border: 3px solid;
+	box-shadow: .5rem 10px .5rem rgba(2,1,4,1);
+}

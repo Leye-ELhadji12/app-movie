@@ -6,10 +6,10 @@ import { MovieService } from '../movie.service';
 @Component({
   selector: 'app-list-movies',
   templateUrl: './list-movies.component.html',
-  styleUrls: ['./movie.component.css'],
+  styleUrls: ['../movie.component.css'],
 })
 export class ListMoviesComponent implements OnInit{
-  moviesList: Movie[] | undefined;
+  moviesList: Movie[] ;
 
   constructor(
     private router: Router,
@@ -18,6 +18,7 @@ export class ListMoviesComponent implements OnInit{
 
   ngOnInit() {
       this.moviesList = this.movieService.getListMovies();
+      console.log(this.moviesList);
   }
 
   showMovie(movie: Movie) {

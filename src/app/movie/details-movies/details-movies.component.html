@@ -1,0 +1,69 @@
+<div *ngIf="movie" class="">
+    <div class="px-5 mx-5 me-3 py-2 my-3">
+        <h2 class="center card-header"><i>{{ movie.title }}</i></h2>
+            <!--div class="card-image">
+                <img [src]="movie.poster_path">
+            </div-->
+            <!--div class="card-stacked"-->
+            <div class="row pe-5 py-3">
+                <div class="col-md-6">
+                    <img [src]="movie.backdrop_path" class="img"> 
+                </div>
+                <div class="col-md-6 ">              
+                    <table class="bordered striped">
+                        <tbody>
+                            <tr>
+                                <td>Titre</td>
+                                <td><strong>{{ movie.title }}</strong></td>
+                            </tr>
+                            <tr>
+                                <td>Genres</td>
+                                <td><strong>{{ movie.genre_ids }}</strong></td>
+                            </tr>
+                            <tr>
+                                <td>Popularité</td>
+                                <td><strong>{{ movie.popularity }}</strong></td>
+                            </tr>
+                            <tr>
+                                <td>Langue</td>
+                                <td>
+                                    <strong>{{ movie.original_language }}</strong>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Nombre de vote</td>
+                                <td>
+                                    <strong>{{ movie.vote_count }}</strong>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Moyenne vote</td>
+                                <td>
+                                    <strong>{{ movie.vote_average }}</strong>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Date de création</td>
+                                <td><em>{{ movie.release_date | date:"dd/MM/yyyy" }}</em></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="row">
+                    <div class="col-12 bordered striped"> 
+                        <strong class=" offset-md-1">Description : </strong>  
+                        {{ movie.overview }}
+                    </div>
+                </div>
+            </div>
+            
+                <!--div class="card-action">
+                    <a (click)="goToPokemonList()" >Retour</a>
+                    <a (click)="goToEditPokemon(pokemon)" >Editer</a>
+                </div-->
+        </div>
+    </div>
+<!--/div-->
+<h4 *ngIf='!movie' class="center">
+  Aucun pokemon à afficher !
+</h4>

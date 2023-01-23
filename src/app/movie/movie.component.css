@@ -12,3 +12,8 @@ button {
 	border: 3px solid;
 	box-shadow: .5rem 10px .5rem rgba(2,1,4,1);
 }
+
+.img {
+  box-shadow: .5rem 10px .5rem rgba(2,1,4,1);
+  border-radius:0px 50px 0px 50px;
+}

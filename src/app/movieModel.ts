@@ -1,6 +1,6 @@
 export class Movie {
     backdrop_path: string|undefined;
-    genre_ids: Array<number>|undefined;
+    genre_ids: Array<string>|undefined;
     id: number|undefined;
     original_language: string|undefined;
     overview: string|undefined;

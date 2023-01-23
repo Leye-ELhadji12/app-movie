@@ -160,7 +160,7 @@ export const MOVIES: Movie[] = [
         "vote_count": 2837
       },
       {
-        "backdrop_path": "/53BC9F2tpZnsGno2cLhzvGprDYS.jpg",
+        "backdrop_path": "https://image.tmdb.org/t/p/w500/53BC9F2tpZnsGno2cLhzvGprDYS.jpg",
         "genre_ids": [
           "Fantasy",
           "Action",

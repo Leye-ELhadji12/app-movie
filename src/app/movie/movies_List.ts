@@ -4,11 +4,11 @@ export const MOVIES: Movie[] = [
     {
         "backdrop_path": "https://image.tmdb.org/t/p/w500/r9PkFnRUIthgBp2JZZzD380MWZy.jpg",
         "genre_ids": [
-            "Animation",
-            "Action",
-            "Adventure",
-            "Comedy",
-            "Family", 
+            "Animation ",
+            "Action ",
+            "Adventure ",
+            "Comedy ",
+            "Family ", 
             "Fantasy"
         ],
         "id": 315162,
@@ -24,8 +24,8 @@ export const MOVIES: Movie[] = [
     {
         "backdrop_path": "https://image.tmdb.org/t/p/w500/q2fY4kMXKoGv4CQf310MCxpXlRI.jpg",
         "genre_ids": [
-            "Science Fiction",
-            "Horror",
+            "Science Fiction ",
+            "Horror ",
             "Comedy"
         ],
         "id": 536554,
@@ -41,8 +41,8 @@ export const MOVIES: Movie[] = [
     {
         "backdrop_path": "https://image.tmdb.org/t/p/w500/s16H6tpK2utvwDtzZ8Qy4qm5Emw.jpg",
         "genre_ids": [
-            "Science Fiction",
-            "Adventure",
+            "Science Fiction ",
+            "Adventure ",
             "Action"
         ],
         "id": 76600,
@@ -58,8 +58,8 @@ export const MOVIES: Movie[] = [
     {
         "backdrop_path": "https://image.tmdb.org/t/p/w500/Aqldsq65Nj1KAkQD2MzkZsAk5N5.jpg",
         "genre_ids": [
-            "Action",
-            "Thriller",
+            "Action ",
+            "Thriller ",
             "Drama"
         ],
         "id": 846433,
@@ -75,8 +75,8 @@ export const MOVIES: Movie[] = [
     {
         "backdrop_path": "https://image.tmdb.org/t/p/w500/5pMy5LF2JAleBNBtuzizfCMWM7k.jpg",
         "genre_ids": [
-            "Family",
-            "History",
+            "Family ",
+            "History ",
             "Drama"
         ],
         "id": 653851,
@@ -92,9 +92,9 @@ export const MOVIES: Movie[] = [
     {
         "backdrop_path": "https://image.tmdb.org/t/p/w500/sBOenwOZGRN5nZZGw4TxwtnfrEf.jpg",
         "genre_ids": [
-            "Action",
-            "Comedy",
-            "Crime",
+            "Action ",
+            "Comedy ",
+            "Crime ",
             "Thriller"
         ],
         "id": 899112,
@@ -110,8 +110,8 @@ export const MOVIES: Movie[] = [
     {
         "backdrop_path": "https://image.tmdb.org/t/p/w500/bQXAqRx2Fgc46uCVWgoPz5L5Dtr.jpg",
         "genre_ids": [
-          "Fantasy",
-          "Action",
+          "Fantasy ",
+          "Action ",
           "Science Fiction"
         ],
         "id": 436270,
@@ -127,9 +127,9 @@ export const MOVIES: Movie[] = [
       {
         "backdrop_path": "https://image.tmdb.org/t/p/w500/8I37NtDffNV7AZlDa7uDvvqhovU.jpg",
         "genre_ids": [
-          "Action",
-          "Adventure",
-          "Fantasy",
+          "Action ",
+          "Adventure ",
+          "Fantasy ",
           "Science Fiction"
         ],
         "id": 19995,
@@ -145,8 +145,8 @@ export const MOVIES: Movie[] = [
       {
         "backdrop_path": "https://image.tmdb.org/t/p/w500/dKqa850uvbNSCaQCV4Im1XlzEtQ.jpg",
         "genre_ids": [
-          "Comedy",
-          "Crime",
+          "Comedy ",
+          "Crime ",
           "Mystery"
         ],
         "id": 661374,
@@ -162,9 +162,9 @@ export const MOVIES: Movie[] = [
       {
         "backdrop_path": "https://image.tmdb.org/t/p/w500/53BC9F2tpZnsGno2cLhzvGprDYS.jpg",
         "genre_ids": [
-          "Fantasy",
-          "Action",
-          "Adventure",
+          "Fantasy ",
+          "Action ",
+          "Adventure ",
           "Thriller"
         ],
         "id": 736526,
@@ -180,8 +180,8 @@ export const MOVIES: Movie[] = [
       {
         "backdrop_path": "https://image.tmdb.org/t/p/w500/yYrvN5WFeGYjJnRzhY0QXuo4Isw.jpg",
         "genre_ids": [
-          "Action",
-          "Adventure",
+          "Action ",
+          "Adventure ",
           "Science Fiction"
         ],
         "id": 505642,
@@ -212,7 +212,7 @@ export const MOVIES: Movie[] = [
       {
         "backdrop_path": "https://image.tmdb.org/t/p/w500/7GmQKKAB3q3xkpxt1VFt2DrfviW.jpg",
         "genre_ids": [
-          "Thriller",
+          "Thriller ",
           "Crime"
         ],
         "id": 934287,
@@ -228,8 +228,8 @@ export const MOVIES: Movie[] = [
       {
         "backdrop_path": "https://image.tmdb.org/t/p/w500/nWs0auTqn2UaFGfTKtUE5tlTeBu.jpg",
         "genre_ids": [
-          "Family",
-          "Comedy",
+          "Family ",
+          "Comedy ",
           "Fantasy"
         ],
         "id": 668482,
@@ -245,8 +245,8 @@ export const MOVIES: Movie[] = [
       {
         "backdrop_path": "https://image.tmdb.org/t/p/w500/gkseI3CUfQtMKX41XD4AxDzhQb7.jpg",
         "genre_ids": [
-          "Action",
-          "Drama",
+          "Action ",
+          "Drama ",
           "History"
         ],
         "id": 724495,
@@ -262,7 +262,7 @@ export const MOVIES: Movie[] = [
       {
         "backdrop_path": "https://image.tmdb.org/t/p/w500/7dm64SW5L5CCg47kAEAcdCGaq5i.jpg",
         "genre_ids": [
-          "Horror",
+          "Horror ",
           "Thriller"
         ],
         "id": 676547,

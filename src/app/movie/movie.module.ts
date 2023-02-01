@@ -4,6 +4,7 @@ import { ListMoviesComponent } from './list-movies/list-movies.component';
 import { RouterModule, Routes } from '@angular/router';
 import { MovieService } from './movie.service';
 import { DetailsMoviesComponent } from './details-movies/details-movies.component';
+import { EditMovieComponent } from './edit-movie/edit-movie.component';
 
 
 const movieRoutes: Routes = [
@@ -14,7 +15,8 @@ const movieRoutes: Routes = [
 @NgModule({
   declarations: [
     ListMoviesComponent,
-    DetailsMoviesComponent
+    DetailsMoviesComponent,
+    EditMovieComponent
   ],
   imports: [
     CommonModule,

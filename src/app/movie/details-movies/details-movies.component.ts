@@ -22,6 +22,8 @@ export class DetailsMoviesComponent implements OnInit{
     if (movieId) {
       this.movie = this.movieService.getMovieById(+movieId);
       console.log('movie id : '+movieId);
+    } else {
+      this.movie = undefined;
     }
   }
 }

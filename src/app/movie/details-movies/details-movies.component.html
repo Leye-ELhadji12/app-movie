@@ -7,7 +7,7 @@
             <!--div class="card-stacked"-->
             <div class="row pe-5 py-3">
                 <div class="col-md-6">
-                    <img [src]="movie.backdrop_path" class="img"> 
+                    <img [src]="movie.backdrop_path" class="img col-12"> 
                 </div>
                 <div class="col-md-6 ">              
                     <table class="bordered striped">
@@ -59,8 +59,11 @@
             
                 <!--div class="card-action">
                     <a (click)="goToPokemonList()" >Retour</a>
-                    <a (click)="goToEditPokemon(pokemon)" >Editer</a>
+                    <a class="modal" tabindex="-1" aria-labelledby="..." aria-hidden="true" (click)="goToEditPokemon(pokemon)" >Editer</a>
                 </div-->
+        </div>
+        <div class="modal-dialog modal-lg">
+
         </div>
     </div>
 <!--/div-->
